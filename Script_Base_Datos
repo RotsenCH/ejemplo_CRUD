@@ -1,0 +1,10 @@
+CREATE DATABASE ejemploCRUD;
+
+USE ejemploCRUD;
+
+
+CREATE TABLE IF NOT EXISTS datosCRUD
+(  cedula varchar(10) not null,    
+ celular varchar(10) not null,     
+ nombre varchar(30) not null,      
+ apellido varchar(30) not null);
